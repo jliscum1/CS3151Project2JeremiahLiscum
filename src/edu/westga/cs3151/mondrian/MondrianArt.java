@@ -34,7 +34,7 @@ public class MondrianArt extends Application {
 			Group group = new Group();
 			group.getChildren().add(canvas);
 			Scene scene = new Scene(new BorderPane(group), WIDTH, HEIGHT);
-			primaryStage.setTitle("Mondrian Art by Firstname Lastname");
+			primaryStage.setTitle("Mondrian Art by Jeremiah Liscum");
 			primaryStage.setScene(scene);
 			primaryStage.show();
 
@@ -76,7 +76,7 @@ public class MondrianArt extends Application {
 	private void createGraphics(GraphicsContext gc) {
 		gc.setFill(Color.BLUE);
 		gc.fillRect(0, 0, 300, 600);
-		
+
 		gc.setStroke(Color.WHITE);
 		gc.setLineWidth(20);
 		gc.strokeLine(290, 10, 290, 590);
@@ -86,7 +86,7 @@ public class MondrianArt extends Application {
 
 		gc.setFill(Color.YELLOW);
 		gc.fillRect(300, 300, 300, 300);
-		
+
 		gc.setStroke(Color.GREEN);
 		gc.setLineWidth(30);
 		gc.strokeLine(315, 300, 585, 300);
