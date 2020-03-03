@@ -1,16 +1,6 @@
 package edu.westga.cs3151.mondrian;
 
-import java.util.Optional;
-
-import javafx.application.Application;
-import javafx.scene.Group;
-import javafx.scene.Scene;
-import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
-import javafx.scene.control.TextInputDialog;
-import javafx.scene.layout.BorderPane;
-import javafx.scene.paint.Color;
-import javafx.stage.Stage;
 
 /**
  * Class MondrianArt
@@ -18,8 +8,15 @@ import javafx.stage.Stage;
  * @author Jeremiah Liscum
  */
 public class MondrianArt {
+	GraphicsContext gc;
+
 	/**
+	 * Constuctor of MondrianArt
 	 * 
+	 * @param gc
 	 */
+	public MondrianArt(GraphicsContext gc) {
+		this.gc = gc;
+	}
 
 }
